@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    // 编译目标版本，设置为 ESNext 表示使用最新的 ECMAScript 特性
+    "target": "ESNext",
+
+    // 使用 `define` 属性来定义类字段，而不是构造函数赋值
+    "useDefineForClassFields": true,
+
+    // 指定模块代码生成的目标，"ESNext" 表示使用最新 ECMAScript 模块标准
+    "module": "ESNext",
+
+    // 模块解析策略，"Node" 表示使用 Node.js 的模块解析方式
+    "moduleResolution": "Node",
+
+    // 启用所有严格的类型检查选项
+    "strict": true,
+
+    // JSX 语法的处理方式，"preserve" 表示保留 JSX 不做转换
+    "jsx": "preserve",
+
+    // 允许通过 `import` 导入 JSON 模块
+    "resolveJsonModule": true,
+
+    // 每个文件被编译成单独的模块（用于快速增量编译）
+    "isolatedModules": true,
+
+    // 启用 ES6 的 import/export 语法兼容性支持
+    "esModuleInterop": true,
+
+    // 编译过程中需要包含的库文件，这里包括最新的 ECMAScript 和浏览器 DOM API
+    "lib": ["ESNext", "DOM"],
+
+    // 跳过对库文件的类型检查
+    "skipLibCheck": true,
+
+    // 不生成输出文件，仅进行类型检查
+    "noEmit": true
+  },
+
+  // 包含的源代码路径，TypeScript 会从这些路径中查找需要编译的文件
+  "include": [
+    "src/**/*.ts", // 所有 .ts 文件
+    "src/**/*.d.ts", // 所有声明文件
+    "src/**/*.tsx", // 所有 .tsx 文件（React 组件）
+    "src/**/*.vue" // 所有 Vue 单文件组件
+  ],
+
+  // 引用其他 tsconfig.json 配置文件，这里是 node 相关配置
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

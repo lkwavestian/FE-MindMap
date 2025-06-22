@@ -1,5 +1,9 @@
-# Vue 3 + Vite
+# FE-MindMap
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+千浔的前端知识图谱（用思维导图的方式总结个人所学知识），如有引用请标注原作者
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 预览地址
+
+## 目录
+
+
