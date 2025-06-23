@@ -7,7 +7,7 @@ on:
       - main
     # 只在文件变更时触发
     paths:
-      - '**.xmind'
+      - "**.xmind"
 
 jobs:
   bot:
@@ -22,13 +22,13 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.15.1
+          version: 8.0.0
 
-      - name: Set node version to 16
+      - name: Set node version to 18.20.3
         uses: actions/setup-node@v2
         with:
-          node-version: 16
-          cache: 'pnpm'
+          node-version: 18.20.3
+          cache: "pnpm"
 
       - name: Run Script
         run: pnpm install && pnpm generateReadme && pnpm prettier
@@ -38,6 +38,6 @@ jobs:
         with:
           github-token: ${{ secrets.ACCESS_TOKEN }}
           push-branch: main
-          commit-message: 'Update README.md by Github Actions'
+          commit-message: "Update README.md by Github Actions"
           name: github-actions[bot]
           email: 41898282+github-actions[bot]@users.noreply.github.com

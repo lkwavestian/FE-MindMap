@@ -50,13 +50,13 @@ try {
     });
 
   // 复制 xmind
-  /* fs.copy("xmind", "public/xmind")
+  fs.copy("xmind", "public/xmind")
     .then(() => {
       console.log("复制 xmind 文件成功");
     })
     .catch(() => {
       console.log("复制 xmind 文件失败");
-    }); */
+    });
 } catch (error) {
   console.log("catch error :>> ", error);
 }
