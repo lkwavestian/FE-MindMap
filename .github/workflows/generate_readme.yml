@@ -28,6 +28,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "pnpm"
 
       - name: Run Script
         run: pnpm install && pnpm generateReadme && pnpm prettier
@@ -35,7 +36,7 @@ jobs:
       - name: Push
         uses: github-actions-x/commit@v2.9
         with:
-          github-token: ${{ secrets.ACCESS_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: main
           commit-message: "Update README.md by Github Actions"
           name: github-actions[bot]
