@@ -30,6 +30,8 @@ function generateList(list) {
 try {
   const result = await Promise.all(getXmindList("xmind"));
 
+  console.log("result :>> ", result);
+
   // 写入 json 文件
   fs.writeFile(
     "public/xmind.json",
