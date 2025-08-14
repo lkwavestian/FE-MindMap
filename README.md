@@ -6,12 +6,12 @@
 
 ## 目录
 
+- [x] [Typescript <img alt="" height="16" src="https://img.shields.io/github/size/maomao1996/FE-MindMap/xmind/Typescript.xmind" align="center" />](/xmind/Typescript.xmind)
+  - 创建时间: 2025-08-14
+  - 更新时间: 2025-08-14
 - [x] [CSS 知识总结 <img alt="" height="16" src="https://img.shields.io/github/size/maomao1996/FE-MindMap/xmind/CSS%20%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93.xmind" align="center" />](/xmind/CSS%20%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93.xmind)
   - 创建时间: 2025-06-22
   - 更新时间: 2025-07-02
-- [x] [CSS_the definitive guide <img alt="" height="16" src="https://img.shields.io/github/size/maomao1996/FE-MindMap/xmind/CSS_the%20definitive%20guide.xmind" align="center" />](/xmind/CSS_the%20definitive%20guide.xmind)
-  - 创建时间: 2025-06-22
-  - 更新时间: 2025-06-22
 - [x] [ES6 知识总结 <img alt="" height="16" src="https://img.shields.io/github/size/maomao1996/FE-MindMap/xmind/ES6%20%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93.xmind" align="center" />](/xmind/ES6%20%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93.xmind)
   - 创建时间: 2025-06-22
   - 更新时间: 2025-06-22
